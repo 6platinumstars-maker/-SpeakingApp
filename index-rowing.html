@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Rowing Mode</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<main class="container">
+
+<h1>Rowing Mode</h1>
+
+<label>Start Section</label>
+<input type="number" id="startSection" min="1" max="77" value="1">
+
+<label>Count</label>
+<select id="count">
+<option value="1">1</option>
+<option value="3">3</option>
+<option value="11">11</option>
+</select>
+
+<button onclick="startPlayback()">Play</button>
+
+<p id="status">Ready</p>
+
+<audio id="player" controls></audio>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

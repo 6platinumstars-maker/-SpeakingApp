@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speaking App - Bath Mode</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Bath Mode</h1>
+    <p class="section-label">Section 01</p>
+
+    <div class="card">
+      <p class="label">日本語</p>
+      <p id="jpText" class="sentence"></p>
+    </div>
+
+    <div class="card answer-card">
+      <p class="label">英語</p>
+      <p id="enText" class="sentence hidden"></p>
+    </div>
+
+    <div class="buttons">
+      <button id="showBtn">答えを見る</button>
+      <button id="nextBtn">次へ</button>
+    </div>
+
+    <p id="progress" class="progress"></p>
+  </main>
+
+  <script src="bath-data.js"></script>
+  <script src="bath.js"></script>
+</body>
+</html>
