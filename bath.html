@@ -1,41 +1,71 @@
 1<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Speaking App - Bath Mode</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Speaking App - Bath Mode</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body class="bath-body">
-  <main class="bath-container">
-    <header class="bath-header">
-      <a href="index.html" class="back-link">← Home</a>
-      <p class="bath-section">Bath Mode / Section 01</p>
-      <p id="progress" class="bath-progress"></p>
-    </header>
 
-    <div id="tapArea" class="tap-area" tabindex="0">
-      <div class="sentence-block">
-        <p class="sentence-label">日本語</p>
-        <p id="jpText" class="bath-jp"></p>
-      </div>
+<main class="bath-container">
 
-      <div class="sentence-block answer-block">
-        <p class="sentence-label">英語</p>
-        <p id="enText" class="bath-en hidden"></p>
-      </div>
+<header class="bath-header">
 
-      <p id="hintText" class="bath-hint">タップで答えを表示</p>
-    </div>
+<a href="index.html" class="back-link">← Home</a>
 
-    <div class="bath-buttons">
-      <button id="showBtn" type="button">答えを見る</button>
-      <button id="nextBtn" type="button">次へ</button>
-      <button id="resetBtn" type="button">最初へ</button>
-    </div>
-  </main>
+<h1>Bath Mode</h1>
 
-  <script src="bath-data.js"></script>
-  <script src="bath.js"></script>
+<label for="sectionSelect">Section</label>
+
+<select id="sectionSelect">
+<option value="section01">Section 01</option>
+<option value="section02">Section 02</option>
+<option value="section03">Section 03</option>
+</select>
+
+<p id="progress" class="bath-progress"></p>
+
+</header>
+
+
+<div id="tapArea" class="tap-area" tabindex="0">
+
+<div class="sentence-block">
+<p class="sentence-label">日本語</p>
+<p id="jpText" class="bath-jp"></p>
+</div>
+
+<div class="sentence-block answer-block">
+<p class="sentence-label">英語</p>
+<p id="enText" class="bath-en hidden"></p>
+</div>
+
+<p id="hintText" class="bath-hint">
+タップで答えを表示
+</p>
+
+</div>
+
+
+<div class="bath-buttons">
+
+<button id="showBtn">答えを見る</button>
+
+<button id="nextBtn">次へ</button>
+
+<button id="resetBtn">最初へ</button>
+
+</div>
+
+</main>
+
+
+<script src="bath-data.js"></script>
+<script src="bath.js"></script>
+
 </body>
 </html>
