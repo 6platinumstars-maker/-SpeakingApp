@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+1<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -6,27 +6,33 @@
   <title>Speaking App - Bath Mode</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <main class="container">
-    <h1>Bath Mode</h1>
-    <p class="section-label">Section 01</p>
+<body class="bath-body">
+  <main class="bath-container">
+    <header class="bath-header">
+      <a href="index.html" class="back-link">← Home</a>
+      <p class="bath-section">Bath Mode / Section 01</p>
+      <p id="progress" class="bath-progress"></p>
+    </header>
 
-    <div class="card">
-      <p class="label">日本語</p>
-      <p id="jpText" class="sentence"></p>
+    <div id="tapArea" class="tap-area" tabindex="0">
+      <div class="sentence-block">
+        <p class="sentence-label">日本語</p>
+        <p id="jpText" class="bath-jp"></p>
+      </div>
+
+      <div class="sentence-block answer-block">
+        <p class="sentence-label">英語</p>
+        <p id="enText" class="bath-en hidden"></p>
+      </div>
+
+      <p id="hintText" class="bath-hint">タップで答えを表示</p>
     </div>
 
-    <div class="card answer-card">
-      <p class="label">英語</p>
-      <p id="enText" class="sentence hidden"></p>
+    <div class="bath-buttons">
+      <button id="showBtn" type="button">答えを見る</button>
+      <button id="nextBtn" type="button">次へ</button>
+      <button id="resetBtn" type="button">最初へ</button>
     </div>
-
-    <div class="buttons">
-      <button id="showBtn">答えを見る</button>
-      <button id="nextBtn">次へ</button>
-    </div>
-
-    <p id="progress" class="progress"></p>
   </main>
 
   <script src="bath-data.js"></script>
