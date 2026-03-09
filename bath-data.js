@@ -36,5 +36,45 @@ const bathData = {
     { jp: "彼女たちは乗客ですか？― いいえ、違います。", en: "Are they passengers? — No, they aren't." },
     { jp: "あなたは緊張していますか？― はい、緊張しています。", en: "Are you nervous? — Yes, I am." },
     { jp: "彼らは親しみやすいです。", en: "They are friendly." }
+  ],
+
+  section04: [
+    { jp: "彼は私の上司です。", en: "He is my boss." },
+    { jp: "このファイルはあなたの報告ですか？-はいそうです。", en: "Is this file your report? — Yes, it is." },
+    { jp: "これらは彼らの書類です。", en: "These are their documents." },
+    { jp: "あれらの男性は彼女のお客さんです。", en: "Those men are her customers." },
+    { jp: "これは私たちのアイデアです。", en: "This is our idea." },
+    { jp: "あれはあなた方の製品ですか？ｰいいえ、違います。", en: "Is that your product? — No, it isn't." },
+    { jp: "あれは彼女たちの目標です。", en: "That is their goal." },
+    { jp: "私たちの問題は大きくないです。", en: "Our problem is not big." },
+    { jp: "あなたの仕事仲間はベジタリアンですか？-いいえ、彼女は違います。", en: "Is your coworker a vegetarian? — No, she isn't." },
+    { jp: "彼の技能は良いですか？-はい、良いです。", en: "Are his skills good? — Yes, they are." }
+  ],
+
+  section05: [
+    { jp: "あの男性はだれですか？-私の監督者です。", en: "Who is that man? — He is my supervisor." },
+    { jp: "あの女性は誰ですか？-ジャーナリストです。", en: "Who is that woman? — She is a journalist." },
+    { jp: "あの男性たちは誰ですか？-大工です。", en: "Who are those men? — They are carpenters." },
+    { jp: "あの女性たちは誰ですか？-客室乗務員です。", en: "Who are those women? — They are flight attendants." },
+    { jp: "この若い助手は誰ですか？-彼女はテイラーさんです。", en: "Who is this young assistant? — She is Ms. Taylor." },
+    { jp: "あの背の高い建築家は誰ですか？-彼はハリスさんです。", en: "Who is that tall architect? — He is Mr. Harris." },
+    { jp: "この背の低い少女は誰ですか？-彼女はサラ・キングです。", en: "Who is this short girl? — She is Sarah King." },
+    { jp: "ナンシーと一緒にいるあの男性は誰ですか？-彼は彼女のビジネスパートナーです。", en: "Who is that man with Nancy? — He is her business partner." },
+    { jp: "彼女たちは誰ですか？-受付係です。", en: "Who are they? — They are receptionists." },
+    { jp: "彼らは誰ですか？-清掃員です。", en: "Who are they? — They are cleaner staff." }
+  ],
+
+  section06: [
+    { jp: "私は京都行の切符を持っています。", en: "I have a ticket to Kyoto." },
+    { jp: "あなたは資格を持っていますか？-いいえ、持っていません。", en: "Do you have qualifications? — No, I don't." },
+    { jp: "彼はその製品見本を持っています。", en: "He has the product sample." },
+    { jp: "彼はその販売員を知っています。", en: "He knows the sales staff." },
+    { jp: "あなたはそのマネージャーを知っていますか？-はい、知っています。", en: "Do you know the manager? — Yes, I do." },
+    { jp: "ケンはそのパン屋を知っています。", en: "Ken knows the baker." },
+    { jp: "タナカさんは電車を使いますか？-いいえ、彼は使っていません。", en: "Does Mr. Tanaka use the train? — No, he doesn't." },
+    { jp: "あなたの上司は何を持っているのですか？-彼女は履歴書を持っています。", en: "What does your boss have? — She has a resume." },
+    { jp: "彼らには今日、打合せがあります。", en: "They have a meeting today." },
+    { jp: "この会社には3つの支社があります。", en: "This company has three branches." }
   ]
+  
 };
