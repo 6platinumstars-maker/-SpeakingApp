@@ -75,6 +75,45 @@ const bathData = {
     { jp: "あなたの上司は何を持っているのですか？-彼女は履歴書を持っています。", en: "What does your boss have? — She has a resume." },
     { jp: "彼らには今日、打合せがあります。", en: "They have a meeting today." },
     { jp: "この会社には3つの支社があります。", en: "This company has three branches." }
-  ]
+  ],
   
+    section07: [
+    { jp: "あなたはいくつ銀行口座を持っているのですか？", en: "How many bank accounts do you have?" },
+    { jp: "あなたのジムに何人の会員がいますか？", en: "How many members does your gym have?" },
+    { jp: "彼女は今日いくつのアポがありますか？", en: "How many appointments does she have today?" },
+    { jp: "あなたにはどのくらいお金が欲しいのですか？", en: "How much money do you want?" },
+    { jp: "彼は情報がどのくらい必要なのですか？", en: "How much information does he need?" },
+    { jp: "この会社はいくつの支社を持っていますか？－15社です。", en: "How many branches does this company have? — It has fifteen branches." },
+    { jp: "彼は1日に何通のEメールを受け取りますか？-1日に約50通です。", en: "How many emails does he receive a day? — He receives about fifty emails a day." },
+    { jp: "佐藤さんは何部コピーが必要ですか？－彼女は10部必要です。", en: "How many copies does Ms. Sato need? — She needs ten copies." },
+    { jp: "この工場は毎日どのくらいのチョコレートを作りますか？-毎日、100キログラム作ります。", en: "How much chocolate does this factory make every day? — It makes one hundred kilograms every day." },
+    { jp: "あなたは毎週何人の応募者に会いますか？-毎週、10人です。", en: "How many applicants do you meet every week? — I meet ten every week." }
+  ],
+
+  section08: [
+    { jp: "私は毎週月曜日、彼女に電話します。", en: "I call her every Monday." },
+    { jp: "あなたは彼を知っていますか？", en: "Do you know him?" },
+    { jp: "彼女は毎週私たちにEメールします。", en: "She emails us every week." },
+    { jp: "彼らはあなたを好きです。", en: "They like you." },
+    { jp: "私は彼らとゴルフをしません。", en: "I do not play golf with them." },
+    { jp: "彼は彼女を知っていますか？", en: "Does he know her?" },
+    { jp: "その助手はあなたを手助けますか？", en: "Does the assistant help you?" },
+    { jp: "その取締役は私たちを必要としています。", en: "The director needs us." },
+    { jp: "応募者たちはよく彼に電話をしてきますか？", en: "Do the applicants often call him?" },
+    { jp: "その配管工は時々、彼らのために働きます。", en: "The plumber sometimes works for them." }
+  ],
+
+  section09: [
+    { jp: "この記事を読みなさい。", en: "Read this article." },
+    { jp: "この領収書にあなたの名前を書いてください。", en: "Write your name on this receipt." },
+    { jp: "その競合相手に注意しなさい。", en: "Watch out for the competitor." },
+    { jp: "このファイルを開いてはいけません。", en: "Do not open this file." },
+    { jp: "その研修に遅れないでください。", en: "Do not be late for the training." },
+    { jp: "その打合せの後で請求書を作りましょう。", en: "Let's make an invoice after the meeting." },
+    { jp: "その結果を確認しましょう。", en: "Let's check the results." },
+    { jp: "彼らと軽食を楽しみましょう。", en: "Let's enjoy a snack with them." },
+    { jp: "この器具を買いましょう。", en: "Let's buy this equipment." },
+    { jp: "その名所を訪れましょう。", en: "Let's visit the landmark." }
+  ]
+
 };
