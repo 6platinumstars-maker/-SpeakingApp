@@ -114,6 +114,45 @@ const bathData = {
     { jp: "彼らと軽食を楽しみましょう。", en: "Let's enjoy a snack with them." },
     { jp: "この器具を買いましょう。", en: "Let's buy this equipment." },
     { jp: "その名所を訪れましょう。", en: "Let's visit the landmark." }
-  ]
+  ],
 
+  section10: [
+    { jp: "この売上報告書は私のものです。", en: "This sales report is mine." },
+    { jp: "あの請求書はあなたのものですか？", en: "Is that invoice yours?" },
+    { jp: "彼のコピー機は古い。彼女のもまた古い。", en: "His copier is old. Hers is also old." },
+    { jp: "この台所用品はあなたのですか、それとも彼のものですか？", en: "Is this kitchenware yours or his?" },
+    { jp: "あなたのはしごは短いです。私のを使ってください。", en: "Your ladder is short. Please use mine." },
+    { jp: "この提案書はあなたたちのものですか？", en: "Is this proposal yours?" },
+    { jp: "あの大きな行事は彼らのものですか？", en: "Is that big event theirs?" },
+    { jp: "この青い荷物はあなたの秘書のものですか？", en: "Is this blue luggage your secretary's?" },
+    { jp: "あの器具は彼のですか、それとも彼女のですか？", en: "Is that equipment his or hers?" },
+    { jp: "これらのエアコンは私たちのものです。", en: "These air conditioners are ours." }
+  ],
+
+  section11: [
+    { jp: "これは誰の予約ですか？", en: "Whose reservation is this?" },
+    { jp: "あの記事は誰のですか？", en: "Whose article is that?" },
+    { jp: "彼らは誰の納入業者ですか？", en: "Whose suppliers are they?" },
+    { jp: "あれは誰の芸術作品ですか？", en: "Whose artwork is that?" },
+    { jp: "あの旅行鞄は誰のですか？", en: "Whose suitcase is that?" },
+    { jp: "これは誰の銀行口座ですか？", en: "Whose bank account is this?" },
+    { jp: "この小さなノートパソコンは誰のですか？－彼女のです。", en: "Whose small laptop is this? — It is hers." },
+    { jp: "あれは誰の売り上げ記録ですか？－彼のです。", en: "Whose sales record is that? — It is his." },
+    { jp: "これらは誰のアイデアですか？－彼らのです。", en: "Whose ideas are these? — They are theirs." },
+    { jp: "あれは誰のプロジェクトですか？-彼女たちのです。", en: "Whose project is that? — It is theirs." }
+  ],
+
+  section12: [
+    { jp: "あなたのホッチキスはどこですか？", en: "Where is your stapler?" },
+    { jp: "あなたはどこで働いていますか？", en: "Where do you work?" },
+    { jp: "私たちの送迎バスはどこですか？", en: "Where is our shuttle bus?" },
+    { jp: "彼女はどこで経済学を教えていますか？", en: "Where does she teach economics?" },
+    { jp: "私たちの実習生たちはどこにいますか？", en: "Where are our interns?" },
+    { jp: "彼らはどこで車を借りますか？-埼玉で借ります。", en: "Where do they rent a car? — They rent one in Saitama." },
+    { jp: "あなたの弁護士はどこにいますか？-彼女はそのロビーにいます。", en: "Where is your lawyer? — She is in the lobby." },
+    { jp: "君たちは毎日どこで昼食を食べるのですか？-食堂で食べます。", en: "Where do you eat lunch every day? — We eat in the cafeteria." },
+    { jp: "値札はどこにありますか？", en: "Where is the price tag?" },
+    { jp: "あの会計士はどこ出身ですか？-彼は香港出身です。", en: "Where is that accountant from? — He is from Hong Kong." }
+  ]
+  
 };
