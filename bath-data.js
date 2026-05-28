@@ -153,6 +153,83 @@ const bathData = {
     { jp: "君たちは毎日どこで昼食を食べるのですか？-食堂で食べます。", en: "Where do you eat lunch every day? — We eat in the cafeteria." },
     { jp: "値札はどこにありますか？", en: "Where is the price tag?" },
     { jp: "あの会計士はどこ出身ですか？-彼は香港出身です。", en: "Where is that accountant from? — He is from Hong Kong." }
-  ]
+  ],
   
+    section13: [
+    { jp: "あなたの昼休みはいつですか？", en: "When is your lunch break?" },
+    { jp: "あなたはいつ運動しますか？", en: "When do you exercise?" },
+    { jp: "あなたはいつ営業部と共に働きますか？", en: "When do you work with the sales department?" },
+    { jp: "彼の出張日はいつですか？", en: "When is his business trip?" },
+    { jp: "その発売日はいつですか？", en: "When is the release date?" },
+    { jp: "その職員はいつその扉に鍵をかけますか？", en: "When does the staff lock the door?" },
+    { jp: "彼らはいつその弁護士事務所に行きますか？", en: "When do they go to the lawyer's office?" },
+    { jp: "彼女と彼女の上司はいつその打合せを終えますか？", en: "When do she and her boss finish to the meeting?" },
+    { jp: "あなたの歯医者は毎朝、いつ、そのクリニックを開けますか？", en: "When does your dentist open the clinic every morning?" },
+    { jp: "あなたはいつ彼に連絡しますか？", en: "When do you contact him?" }
+  ],
+
+  section14: [
+    { jp: "どちらがあなたの封筒ですか？", en: "Which is your envelope?" },
+    { jp: "どちらが彼の手提げかばんですか？", en: "Which is his briefcase?" },
+    { jp: "どちらが彼女の眼鏡ですか？", en: "Which are her glasses?" },
+    { jp: "どちらがあなたの会社のブースですか？", en: "Which is your company's booth?" },
+    { jp: "どの会員カードがあなたのですか？", en: "Which membership card is yours?" },
+    { jp: "どの男性が私たちの整備士ですか？―あの背の高い男性です。", en: "Which man is our mechanic? — That tall man is." },
+    { jp: "どちらがあなたの従業員たちですか？こちらの男性たちですか？それともこちらの男性たちですか？―こちらの男性たちです。", en: "Which are your employees? These men or those men? — These men are." },
+    { jp: "どの駐車券が彼女のですか？―あの黄色い券です。", en: "Which parking ticket is hers? — That yellow ticket is." },
+    { jp: "どちらがあなたの会社の新しいモデルですか？こちらですか？それともあちらのですか？―あちらです。", en: "Which is your company's new model? This one or that one? — That one is." },
+    { jp: "どちらが彼のお気に入りの飲み物ですか？コーヒーですか、それとも緑茶ですか？―緑茶です。", en: "Which is his favorite beverage, coffee or green tea? — Green tea is." }
+  ],
+
+  section15: [
+    { jp: "今日は木曜日です。", en: "It is Thursday today." },
+    { jp: "今日は火曜日ですか。", en: "Is it Tuesday today?" },
+    { jp: "今シドニーでは午後１時です。", en: "It is one o'clock in the afternoon in Sydney now." },
+    { jp: "この講堂の中は暖かいですか。", en: "Is it warm in this auditorium?" },
+    { jp: "その玄関のまわりは少し暗いです。", en: "It is a little dark around the entrance." },
+    { jp: "ブエノスアイレスは冬です。", en: "It is winter in Buenos Aires." },
+    { jp: "今日は暑いです。私たちのお気に入りの居酒屋に行きましょう。", en: "It is hot today. Let's go to our favorite pub." },
+    { jp: "昼飯の時間です。", en: "It is lunch time." },
+    { jp: "あの倉庫の中はいつも乾燥しています。", en: "It is always dry in that warehouse." },
+    { jp: "ここから私たちの子会社まではそんなに遠くはありません。", en: "It is not so far from here to our subsidiary." }
+  ],
+
+  section16: [
+    { jp: "ニューヨークは今何時ですか？", en: "What time is it in New York now?" },
+    { jp: "あなたは毎朝、何時にそのバスに乗るのですか？", en: "What time do you take the bus every morning?" },
+    { jp: "その店は何時に開くのですか？", en: "What time does the store open?" },
+    { jp: "その市場は何時に閉まるのですか？", en: "What time does the market close?" },
+    { jp: "あなたの上司は普段何時に事務所に来るのですか？", en: "What time does your boss usually come to the office?" },
+    { jp: "あなたは毎日、何時にお昼休みを取るのですか？―12時半に取ります。", en: "What time do you have a lunch break every day? — I have it at 12:30." },
+    { jp: "今そちらは何時ですか？―５時です。", en: "What time is it there now? — It is 5 in the morning." },
+    { jp: "あなたとあなたの上司は何時に報告書を受け取りますか？―10時に受け取ります。", en: "What time do you and your boss receive a report? — We receive it at 10 ." },
+    { jp: "彼らは何時にその食料品店を開けますか？―午前8時に開けます。", en: "What time do they open the grocery store? — They open it at 8 in the morning." },
+    { jp: "そのトレーニングは何時に終わりますか？―午後3時に終わります。", en: "What time does the training end? — It ends at 3 in the afternoon" }
+  ],
+
+  section17: [
+    { jp: "ご機嫌いかがですか？―元気です。ありがとうございます。", en: "How are you? — I am fine, thank you." },
+    { jp: "本社の皆さんは元気ですか？", en: "How is everyone at the headquarters?" },
+    { jp: "あなたはどうやって事務所に来ますか？―地下鉄できます。", en: "How do you come to the office? — I come by subway." },
+    { jp: "あなたはどうやってこのウェブサイトを更新しますか？", en: "How do you update this website?" },
+    { jp: "あなたはどうやってこれらの画像をアップロードしますか？", en: "How do you upload these images?" },
+    { jp: "あなたはどうやってこの書式を提出しますか？", en: "How do you submit this form?" },
+    { jp: "彼らはどうやってそのチームを訓練しますか？", en: "How do they train the team?" },
+    { jp: "あなた方の従業員はお元気ですか？―元気です。", en: "How are your employees? — They are fine." },
+    { jp: "あなたはどうやってその請求書を支払うのですか？", en: "How do you pay the bills?" },
+    { jp: "上海での売り上げはどうですか？", en: "How are the sales in Shanghai?" }
+  ],
+
+  section18: [
+    { jp: "あなたはおいくつですか？", en: "How old are you?" },
+    { jp: "その市庁舎はどのくらい古いのですか？", en: "How old is the city hall?" },
+    { jp: "あのクローゼットはどのくらい背が高いのですか？", en: "How tall is that closet?" },
+    { jp: "その映画館はここからどのくらい遠いですか？", en: "How far is the movie theater from here?" },
+    { jp: "この電子レンジはいくらですか？", en: "How much is this microwave oven?" },
+    { jp: "面接はどのくらい長いのですか？―15分くらいです。", en: "How long is the interview? — It is about fifteen minutes long." },
+    { jp: "これらの芸術作品はどのくらい古いのですか？―150年くらいです。", en: "How old are these works of art? — They are about 150 years old." },
+    { jp: "それらの本棚はどれくらい背が高いのですか？―2メーターです。", en: "How tall are those bookshelves? — They are two meters ." },
+    { jp: "そのレンタル料金はいくらですか？―500円です。", en: "How much is the rental fee? — It is 500 yen." },
+    { jp: "彼女のプレゼンはどのくらい長いのですか？―30分くらいです。", en: "How long is her presentation? — It is about thirty minutes." }
+  ]
 };
