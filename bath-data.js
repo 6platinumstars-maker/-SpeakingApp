@@ -231,5 +231,136 @@ const bathData = {
     { jp: "それらの本棚はどれくらい背が高いのですか？―2メーターです。", en: "How tall are those bookshelves? — They are two meters ." },
     { jp: "そのレンタル料金はいくらですか？―500円です。", en: "How much is the rental fee? — It is 500 yen." },
     { jp: "彼女のプレゼンはどのくらい長いのですか？―30分くらいです。", en: "How long is her presentation? — It is about thirty minutes." }
+  ],
+
+  section19: [
+    { jp: "誰がこの打合せルームを掃除するのですか？", en: "Who cleans this meeting room?" },
+    { jp: "誰がそのウェブサイトを更新するのですか？", en: "Who updates the website?" },
+    { jp: "誰がその大学でマーケティングを教えますか？", en: "Who teaches marketing at the college?" },
+    { jp: "誰がこの洗濯機を使いますか？", en: "Who uses this washing machine?" },
+    { jp: "誰がよくその受付係に電話しますか？", en: "Who often calls the receptionist?" },
+    { jp: "誰が毎月その請求書を支払うのですか？― 私たちのマネージャーです。", en: "Who pays the bill every month? — Our manager does." },
+    { jp: "誰がよくあなたにテキストメッセージを送りますか？― 事務所のみんなです。", en: "Who often texts you? — Everyone at the office does." },
+    { jp: "誰がその冷蔵庫を使うのですか？― 事務所のみんなです。", en: "Who uses the refrigerator? — Everyone at the office does." },
+    { jp: "誰がこのパンフレットを欲しいのですか？― 多くのお客さんです。", en: "Who wants this brochure? — Many customers do." },
+    { jp: "誰がこの部署を管理するのですか？― 私がします。", en: "Who manages this department? — I do." }
+  ],
+
+  section20: [
+    { jp: "あなたはこのファイルを開くことができますか？", en: "Can you open this file?" },
+    { jp: "テッドは上手にビジネスレターを書くことができる。", en: "Ted can write business letters well." },
+    { jp: "私は掃除機を修理することができます。", en: "I can repair vacuum cleaners." },
+    { jp: "彼女はこの会計ソフトを使えません。", en: "She can't use this accounting software." },
+    { jp: "あなたは中国向けのその請求書を作ることができますか？", en: "Can you make the invoice for China?" },
+    { jp: "あのインターンたちはその倉庫で働くことができますか？", en: "Can those interns work in the warehouse?" },
+    { jp: "私たちは毎日何ポイントを貯めることができますか？― 毎日5ポイントを貯めることができます。", en: "How many points can we save every day? — You can save five points every day." },
+    { jp: "ロバートはこの報告書を日曜日までに終わらせることができますか？", en: "Can Robert finish this report by Sunday?" },
+    { jp: "その応募者は何をすることができますか？", en: "What can the applicant do?" },
+    { jp: "私はどこで私たちの予算を確認することができますか？― こちらで確認できます。", en: "Where can I check our budget? — You can check it here." }
+  ],
+
+  section21: [
+    { jp: "私は、私の作業予定を確認しているところです。", en: "I'm checking my work schedule." },
+    { jp: "あなたは今、休憩をとっているのですか？", en: "Are you taking a break now?" },
+    { jp: "私の仕事仲間は研究室で働いているところです。", en: "My coworkers are working in the laboratory." },
+    { jp: "あなたはここで何をしているのですか？", en: "What are you doing here?" },
+    { jp: "彼女は会議室で何をしているのですか？", en: "What is she doing in the conference room?" },
+    { jp: "彼はどこでトレーニングをしているのですか？― あの手すりのそばです。", en: "Where is he training? — He is training by that railing." },
+    { jp: "彼女は今、何をアンインストールしているのですか？― この会計ソフトです。", en: "What is she uninstalling now? — She is uninstalling this accounting software." },
+    { jp: "あなたたちは何を運んでいるのですか？― 電子レンジです。", en: "What are you carrying? — We're carrying a microwave oven." },
+    { jp: "その整備士とその秘書は何をしているのですか？― そのコピー機をチェックしています。", en: "What are the mechanic and the secretary doing? — They are checking the copy machine." },
+    { jp: "彼らはその事務用家具を配置しているところです。", en: "They are arranging the office furniture." }
+  ],
+
+  section22: [
+    { jp: "棚の上の方に時計があります。", en: "There is a clock on the shelf." },
+    { jp: "その引き出しの中にたくさんの書類があります。", en: "There are many documents in the drawer." },
+    { jp: "このプロジェクトにはいくらかリスクがありますか？", en: "Are there any risks in this project?" },
+    { jp: "その乗り物の中にいくつ植木鉢がありますか？", en: "How many flower pots are there in the vehicle?" },
+    { jp: "今日は直行便が2便しかありません。", en: "There are only two direct flights today." },
+    { jp: "そのキャビネットにはノートパソコンがいくつありますか？", en: "How many laptops are there in the cabinet?" },
+    { jp: "その店には電化製品が一つもありません。", en: "There aren't any appliances in the store." },
+    { jp: "色の選択肢はいくつありますか？― 15の選択肢があります。", en: "How many color options are there? — There are fifteen options." },
+    { jp: "何かいい提案はありますか？", en: "Are there any good suggestions?" },
+    { jp: "この部署には一人も外国人の従業員はいません。", en: "There aren't any foreign employees in this department." }
+  ],
+
+  section23: [
+    { jp: "彼のふるまいは良かった。", en: "His behavior was good." },
+    { jp: "彼女はその時、対応可能でした。", en: "She was available then." },
+    { jp: "その男性は金曜日に残業した。", en: "The man worked overtime on Friday." },
+    { jp: "あなたはいつその吸収合併のニュースを聞きましたか？", en: "When did you hear the merger news?" },
+    { jp: "私たちはそのアポをキャンセルしました。", en: "We canceled the appointment." },
+    { jp: "彼らは昼食時の打合せで何について話しましたか？", en: "What did they talk about at the lunchtime meeting?" },
+    { jp: "その会計士はどうやって空港まで行きましたか？― 彼はバスで行きました。", en: "How did the accountant go to the airport? — He went there by bus." },
+    { jp: "その研究所にはたくさんの道具がありました。", en: "There were many tools in the laboratory." },
+    { jp: "あなたは昨日の夕方、どこにいましたか？― 宴会場にいました。", en: "Where were you yesterday evening? — I was at a banquet hall." },
+    { jp: "この動画は去年韓国でとても人気でした。", en: "This video was very popular in South Korea last year." }
+  ],
+
+  section24: [
+    { jp: "そのマネージャーはカフェで休んでいるところでした。", en: "The manager was resting in a cafe." },
+    { jp: "あなたは売上報告書を書いているところでしたか？", en: "Were you writing a sales report?" },
+    { jp: "その電気工は3時間前に何をしていましたか？", en: "What was the electrician doing three hours ago?" },
+    { jp: "あの長椅子に座っていたのは誰ですか？", en: "Who was sitting on that couch?" },
+    { jp: "あなたはジャケットを試着しているところでしたか？", en: "Were you trying on jackets?" },
+    { jp: "その時、彼らは予算について話し合っていなかった。", en: "They were not discussing the budget then." },
+    { jp: "あなたは何を探していましたか？― その価格表を探していました。", en: "What were you looking for? — I was looking for the price list." },
+    { jp: "彼は何を見直していましたか？― 彼は年金プランを見直していました。", en: "What was he reviewing? — He was reviewing the pension plan." },
+    { jp: "なぜその整備士たちはロビーに立っていたのですか？", en: "Why were the mechanics standing in the lobby?" },
+    { jp: "その時、私はフライトの予約をしているところでした。", en: "I was booking a flight then." }
+  ],
+
+  section25: [
+    { jp: "私たちがその新しい発電所を建てた時、私たちはとても忙しかった。", en: "When we built the new power plant, we were very busy." },
+    { jp: "私たちがその製品の在庫を確認した時、それは欠品でした。", en: "When we checked the inventory of the product, it was out of stock." },
+    { jp: "そのお客さんが私の助手に電話した時、私は対応可能だった。", en: "When the customer called my assistant, I was available." },
+    { jp: "その器具が到着した時、彼らは倉庫にいた。", en: "When the equipment arrived, they were in the warehouse." },
+    { jp: "仕事をするとき、ロバートはこの施設を使いますか？", en: "Does Robert use this facility when he works?" },
+    { jp: "その配達員が来た時、私の同僚はオンラインでおしゃべりをしているところだった。", en: "My colleague was chatting online when the delivery person came." },
+    { jp: "若い頃、彼女は校正者だった。", en: "She was a proofreader when she was young." },
+    { jp: "あなたがその明細つき請求書を受け取ったら、私に連絡してください。", en: "Please contact me when you receive the itemized invoice." },
+    { jp: "彼女たちが打合せをした時、太田さんは休憩をとっているところだった。", en: "Ms. Ota was taking a break when they had a meeting." },
+    { jp: "そのシステム障害が起きたとき、あなたはどこにいましたか？", en: "Where were you when the system failure happened?" }
+  ],
+
+  section26: [
+    { jp: "彼女の販売促進計画は完璧に聞こえる。", en: "Her promotion plan sounds perfect." },
+    { jp: "あれは素晴らしく聞こえる。", en: "That sounds great." },
+    { jp: "あれはそんなに悪く見えない。", en: "That doesn't look so bad." },
+    { jp: "そのプレゼンの前、彼は緊張しているように見えた。", en: "He looked nervous before the presentation." },
+    { jp: "彼は、息子が外交官になったとき、とても幸せに感じた。", en: "He felt very happy when his son became a diplomat." },
+    { jp: "その観光客たちは、その天気予報を見たとき、とても悲しく思った。", en: "The tourists got very sad when they saw the weather forecast." },
+    { jp: "その外科医はアメリカで有名になった。", en: "The surgeon became famous in the U.S." },
+    { jp: "あの電気自動車はその国では人気にはならなかった。", en: "That electric vehicle didn't become popular in the country." },
+    { jp: "あの信号が黄色になった。", en: "That traffic light turned yellow." },
+    { jp: "彼は、同じ失敗をした時、青くなった。", en: "When he made the same mistake, he turned pale." }
+  ],
+
+  section27: [
+    { jp: "そのコンサルタントは彼らに助言を与えた。", en: "The consultant gave advice to them." },
+    { jp: "彼は聴衆に1枚の写真を見せた。", en: "He showed a photo to the audience." },
+    { jp: "その社員名簿を彼にあげてください。", en: "Please give the company directory to him." },
+    { jp: "宣伝部のアンディがあなたに英語を教えているのですか？", en: "Does Andy in the advertising department teach English to you?" },
+    { jp: "彼女はあなたにそのレンタル料金を貸してくれましたか。", en: "Did she lend the rental fee to you?" },
+    { jp: "スミスさんが私たちにコーヒーを入れてくれた。", en: "Mr. Smith made some coffee for us." },
+    { jp: "アランは彼女にそのニュースの詳細を教えていましたか？", en: "Did Allan tell the details of the news to her?" },
+    { jp: "彼女は私の同僚にその契約書を見せた。", en: "She showed the contract to my colleague." },
+    { jp: "その銀行はその建設会社にいくら貸したのですか？", en: "How much did the bank lend to the construction company?" },
+    { jp: "法務部の田中さんは彼女の家族のために家を買った。", en: "Ms. Tanaka in the legal department bought a house for her family." }
+  ],
+
+  section28: [
+    { jp: "彼らは私に私の小包を送った。", en: "They sent me my parcel." },
+    { jp: "金曜日、みんなにこの知らせを送ってください。", en: "Please send everyone this notice on Friday." },
+    { jp: "あなたに時間があるとき、私たちに電話してください。", en: "Please give us a call when you have time." },
+    { jp: "そのボランティアたちが彼らに熱い紅茶を入れた。", en: "The volunteers made them some hot tea." },
+    { jp: "彼はあなたに統計学を教えているのですか？", en: "Does he teach you statistics?" },
+    { jp: "その講演者は聴衆に1枚の図表を見せた。", en: "The speaker showed the audience a chart." },
+    { jp: "私にあなたの注文番号を教えてください。", en: "Please tell me your order number." },
+    { jp: "その男性はその市の職員に彼の身分証を見せた。", en: "The man showed the city official his ID." },
+    { jp: "彼らは彼女に良い解決策を与えた。", en: "They gave her a good solution." },
+    { jp: "私は昨日、あなたにその招待状を送りました。", en: "I sent you the invitation yesterday." }
   ]
+
 };
