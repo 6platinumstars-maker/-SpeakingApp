@@ -3,6 +3,7 @@ const enText = document.getElementById("enText");
 const progress = document.getElementById("progress");
 const hintText = document.getElementById("hintText");
 const tapArea = document.getElementById("tapArea");
+const sectionName = document.getElementById("sectionName");
 
 const showBtn = document.getElementById("showBtn");
 const nextBtn = document.getElementById("nextBtn");
@@ -18,28 +19,25 @@ let isAnswerVisible = false;
 
 
 function renderQuestion() {
-
   const item = currentData[currentIndex];
 
   jpText.textContent = item.jp;
   enText.textContent = item.en;
-
-  enText.classList.add("hidden");
+  sectionName.textContent = currentSectionKey;
+  enText.classList.add("is-hidden");
 
   isAnswerVisible = false;
 
-  progress.textContent =
-    `${currentSectionKey} : ${currentIndex + 1} / ${currentData.length}`;
+  progress.textContent = `${currentIndex + 1} / ${currentData.length}`;
 
   hintText.textContent = "タップで答えを表示";
 }
 
 
 function showAnswer() {
-
   if (isAnswerVisible) return;
 
-  enText.classList.remove("hidden");
+  enText.classList.remove("is-hidden");
 
   isAnswerVisible = true;
 
