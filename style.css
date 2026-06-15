@@ -17,38 +17,42 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  min-height: 100vh;
 }
 
 .topbar {
   position: sticky;
   top: 0;
   z-index: 10;
-  padding: 12px 12px 10px;
+  padding: calc(12px + env(safe-area-inset-top, 0px)) 12px 10px;
   background: rgba(11, 15, 20, 0.92);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
 
 .brand .title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
+  letter-spacing: 0.02em;
 }
 
 .controls {
   margin-top: 10px;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 12px;
 }
 
 .select {
   width: 100%;
-  padding: 12px 12px;
+  min-height: 48px;
+  padding: 12px 14px;
   border-radius: 12px;
   border: 1px solid var(--line);
   background: var(--card);
   color: var(--text);
   font-size: 16px;
+  appearance: none;
 }
 
 .seg {
@@ -58,12 +62,15 @@ body {
 }
 
 .seg-btn {
-  height: 44px;
+  min-height: 46px;
+  padding: 10px 12px;
   border-radius: 12px;
   border: 1px solid var(--line);
   background: var(--btn);
   color: var(--text);
   font-size: 15px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .seg-btn.is-active {
@@ -71,7 +78,7 @@ body {
 }
 
 .container {
-  padding: 14px 12px 24px;
+  padding: 14px 12px calc(24px + env(safe-area-inset-bottom, 0px));
   max-width: 720px;
   margin: 0 auto;
 }
@@ -89,13 +96,14 @@ body {
 }
 
 .tap-card {
-  min-height: 60vh;
+  min-height: 58vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   outline: none;
   user-select: none;
   -webkit-tap-highlight-color: transparent;
+  gap: 18px;
 }
 
 .meta {
@@ -124,19 +132,19 @@ body {
 }
 
 .english {
-  font-size: 26px;
-  line-height: 1.55;
+  font-size: 24px;
+  line-height: 1.6;
   font-weight: 650;
   margin: 8px 0 10px;
   word-break: break-word;
 }
 
 .japanese {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.6;
   color: var(--muted);
   border-top: 1px solid var(--line);
-  padding-top: 10px;
+  padding-top: 12px;
   word-break: break-word;
 }
 
@@ -145,11 +153,11 @@ body {
 }
 
 .answer-block {
-  margin-top: 18px;
+  margin-top: 6px;
 }
 
 .hint-text {
-  margin-top: 18px;
+  margin-top: auto;
   text-align: center;
 }
 
@@ -157,15 +165,19 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 8px;
+  margin-top: 0;
 }
 
 .btn {
-  height: 46px;
+  min-height: 48px;
+  padding: 10px 12px;
   border-radius: 14px;
   border: 1px solid var(--line);
   background: var(--btn);
   color: var(--text);
   font-size: 15px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .btn.primary {
@@ -174,8 +186,27 @@ body {
 }
 
 @media (max-width: 600px) {
+  .topbar {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .brand .title {
+    font-size: 18px;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .card {
+    border-radius: 14px;
+    padding: 12px;
+  }
+
   .tap-card {
-    min-height: 68vh;
+    min-height: 62vh;
   }
 
   .english {
@@ -183,10 +214,11 @@ body {
   }
 
   .japanese {
-    font-size: 19px;
+    font-size: 18px;
   }
 
-  .actions {
-    grid-template-columns: 1fr;
+  .seg-btn,
+  .btn {
+    font-size: 14px;
   }
 }
