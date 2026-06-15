@@ -99,10 +99,6 @@ body {
   min-height: 58vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  outline: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
   gap: 18px;
 }
 
@@ -148,17 +144,26 @@ body {
   word-break: break-word;
 }
 
-.japanese.is-hidden {
-  display: none;
-}
-
 .answer-block {
   margin-top: 6px;
 }
 
-.hint-text {
+.hint-block {
   margin-top: auto;
-  text-align: center;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.hint-text {
+  margin-top: 0;
+  text-align: left;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.hint-text.is-empty::before {
+  content: "ヒントはまだありません";
+  color: var(--muted);
 }
 
 .actions {

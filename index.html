@@ -93,17 +93,17 @@
       </select>
 
       <div class="seg" aria-label="Mode selection">
-        <button class="seg-btn is-active" type="button">例文</button>
-        <button class="seg-btn" type="button">英語音声</button>
-        <button class="seg-btn" type="button">日本語音声</button>
-        <button class="seg-btn" type="button">連続77問</button>
+        <button id="modeExampleBtn" class="seg-btn is-active" type="button">例文</button>
+        <button id="modeEnglishAudioBtn" class="seg-btn" type="button">英語音声</button>
+        <button id="modeJapaneseAudioBtn" class="seg-btn" type="button">日本語音声</button>
+        <button id="mode77Btn" class="seg-btn" type="button">連続77問</button>
       </div>
     </div>
   </header>
 
   <main class="container">
     <section class="view">
-      <div id="tapArea" class="card tap-card" tabindex="0">
+      <div id="sentenceCard" class="card tap-card">
         <div class="meta">
           <span id="sectionName" class="pill">section01</span>
           <span id="progress" class="meta-text">1 / 1</span>
@@ -114,17 +114,20 @@
 
         <div class="answer-block">
           <div class="card-title">英語</div>
-          <div id="enText" class="japanese is-hidden"></div>
+          <div id="enText" class="japanese"></div>
         </div>
 
-        <div id="hintText" class="meta-text hint-text">タップで答えを表示</div>
+        <div class="hint-block">
+          <div class="card-title">ヒント</div>
+          <div id="hintText" class="meta-text hint-text"></div>
+        </div>
       </div>
 
       <div class="card">
         <div class="actions">
-          <button id="showBtn" class="btn" type="button">答えを見る</button>
-          <button id="nextBtn" class="btn primary" type="button">次へ</button>
-          <button id="resetBtn" class="btn" type="button">最初へ</button>
+          <button id="prevBtn" class="btn" type="button">←前</button>
+          <button id="playEnglishBtn" class="btn" type="button">英語音声を聞く</button>
+          <button id="nextBtn" class="btn primary" type="button">次→</button>
         </div>
       </div>
     </section>
