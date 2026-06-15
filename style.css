@@ -34,6 +34,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .controls {
@@ -41,10 +42,11 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   gap: 12px;
+  justify-items: center;
 }
 
 .select {
-  width: 100%;
+  width: min(100%, 420px);
   min-height: 48px;
   padding: 12px 14px;
   border-radius: 12px;
@@ -57,19 +59,26 @@ body {
 
 .seg {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  width: min(100%, 520px);
 }
 
 .seg-btn {
-  min-height: 46px;
-  padding: 10px 12px;
+  min-height: 42px;
+  padding: 8px 6px;
   border-radius: 12px;
   border: 1px solid var(--line);
   background: var(--btn);
   color: var(--text);
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.brand,
+.controls {
   text-align: center;
 }
 
@@ -148,6 +157,10 @@ body {
   margin-top: 6px;
 }
 
+.is-hidden {
+  display: none;
+}
+
 .hint-block {
   margin-top: auto;
   padding-top: 12px;
@@ -190,6 +203,10 @@ body {
   font-weight: 700;
 }
 
+.btn:disabled {
+  opacity: 0.45;
+}
+
 @media (max-width: 600px) {
   .topbar {
     padding-left: 10px;
@@ -203,6 +220,10 @@ body {
   .container {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .select {
+    width: 100%;
   }
 
   .card {
@@ -225,5 +246,15 @@ body {
   .seg-btn,
   .btn {
     font-size: 14px;
+  }
+
+  .seg {
+    width: 100%;
+  }
+
+  .seg-btn {
+    min-height: 40px;
+    padding: 8px 4px;
+    font-size: 11px;
   }
 }

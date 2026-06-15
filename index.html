@@ -98,6 +98,7 @@
         <button id="modeJapaneseAudioBtn" class="seg-btn" type="button">日本語音声</button>
         <button id="mode77Btn" class="seg-btn" type="button">連続77問</button>
       </div>
+
     </div>
   </header>
 
@@ -109,15 +110,17 @@
           <span id="progress" class="meta-text">1 / 1</span>
         </div>
 
-        <div class="card-title">日本語</div>
-        <div id="jpText" class="english"></div>
+        <div id="jpBlock">
+          <div class="card-title">日本語</div>
+          <div id="jpText" class="english"></div>
+        </div>
 
-        <div class="answer-block">
+        <div id="enBlock" class="answer-block">
           <div class="card-title">英語</div>
           <div id="enText" class="japanese"></div>
         </div>
 
-        <div class="hint-block">
+        <div id="hintBlock" class="hint-block">
           <div class="card-title">ヒント</div>
           <div id="hintText" class="meta-text hint-text"></div>
         </div>
@@ -126,7 +129,7 @@
       <div class="card">
         <div class="actions">
           <button id="prevBtn" class="btn" type="button">←前</button>
-          <button id="playEnglishBtn" class="btn" type="button">英語音声を聞く</button>
+          <button id="centerControl" class="btn" type="button">英語音声を聞く</button>
           <button id="nextBtn" class="btn primary" type="button">次→</button>
         </div>
       </div>
