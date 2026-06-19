@@ -33,6 +33,7 @@ let currentAudio = null;
 let englishAudioRevealStage = 0;
 let isHintVisible = false;
 let japaneseAudioHasReveal = false;
+let exampleHasEnglishReveal = false;
 let continuous77Position = 1;
 let continuous77Entries = getBathEntriesByPosition(1);
 let continuous77Index = 0;
@@ -82,6 +83,21 @@ function setSectionSelectMode(mode) {
 
 function getCurrentItem() {
   return currentData[currentIndex];
+}
+
+function getSectionKeys() {
+  return Object.keys(bathData);
+}
+
+function getNextSectionKey(sectionKey) {
+  const sectionKeys = getSectionKeys();
+  const currentSectionPosition = sectionKeys.indexOf(sectionKey);
+
+  if (currentSectionPosition === -1) {
+    return sectionKeys[0];
+  }
+
+  return sectionKeys[(currentSectionPosition + 1) % sectionKeys.length];
 }
 
 function getEnglishFastAudioPath() {
@@ -180,7 +196,7 @@ function renderExample() {
   renderShared();
   setBlockVisibility({
     showJapanese: true,
-    showEnglish: true,
+    showEnglish: exampleHasEnglishReveal,
     showHint: true,
   });
   setCenterControlLabel("英語音声を聞く");
@@ -297,6 +313,7 @@ function setActiveMode(mode) {
   isHintVisible = true;
   englishAudioRevealStage = 2;
   japaneseAudioHasReveal = true;
+  exampleHasEnglishReveal = false;
   continuous77HasReveal = false;
   resetCurrentAudio();
   render();
@@ -309,6 +326,31 @@ function showHint() {
 
 function playExampleEnglishAudio() {
   playAudio(getEnglishFastAudioPath());
+}
+
+function advanceExampleReveal() {
+  if (currentMode !== "example") {
+    return;
+  }
+
+  if (!exampleHasEnglishReveal) {
+    exampleHasEnglishReveal = true;
+    render();
+    return;
+  }
+
+  if (currentIndex < currentData.length - 1) {
+    currentIndex += 1;
+  } else {
+    currentSectionKey = getNextSectionKey(currentSectionKey);
+    currentData = bathData[currentSectionKey];
+    sectionSelect.value = currentSectionKey;
+    currentIndex = 0;
+  }
+
+  exampleHasEnglishReveal = false;
+  resetCurrentAudio();
+  render();
 }
 
 function advanceEnglishAudioReveal() {
@@ -384,6 +426,7 @@ function moveQuestion(step) {
     return;
   }
 
+  exampleHasEnglishReveal = false;
   render();
 }
 
@@ -404,6 +447,7 @@ mode77Btn.addEventListener("click", () => {
 });
 
 sentenceCard.addEventListener("click", () => {
+  advanceExampleReveal();
   advanceEnglishAudioReveal();
   advanceJapaneseAudioReveal();
   advanceContinuous77Reveal();
@@ -466,6 +510,7 @@ sectionSelect.addEventListener("change", (event) => {
   currentSectionKey = event.target.value;
   currentData = bathData[currentSectionKey];
   currentIndex = 0;
+  exampleHasEnglishReveal = false;
   resetCurrentAudio();
 
   if (currentMode === "english-audio") {
