@@ -114,6 +114,11 @@ function getJapaneseSectionAudioPath() {
   return `mp3/jp/${currentSectionKey}/all_sentences.mp3`;
 }
 
+function getJapaneseSentenceAudioPath() {
+  const item = getCurrentItem();
+  return `mp3/jp/${currentSectionKey}/${String(item.position).padStart(2, "0")}_female.mp3`;
+}
+
 function get77AudioPath() {
   return `mp3/77jp/${continuous77Position}/all_sections.mp3`;
 }
@@ -224,10 +229,10 @@ function renderJapaneseAudio() {
   setBlockVisibility({
     showJapanese: japaneseAudioHasReveal,
     showEnglish: japaneseAudioHasReveal,
-    showHint: isHintVisible,
+    showHint: true,
   });
 
-  setCenterControlLabel("ヒントを見る");
+  setCenterControlLabel("日本語音声を聞く");
   centerControl.disabled = false;
   setSectionSelectMode("section");
 }
@@ -296,7 +301,7 @@ function setActiveMode(mode) {
     japaneseAudioHasReveal = false;
     currentIndex = 0;
     render();
-    playAudio(getJapaneseSectionAudioPath());
+    playAudio(getJapaneseSentenceAudioPath());
     return;
   }
 
@@ -371,14 +376,23 @@ function advanceJapaneseAudioReveal() {
 
   if (!japaneseAudioHasReveal) {
     japaneseAudioHasReveal = true;
+    resetCurrentAudio();
     render();
     return;
   }
 
   if (currentIndex < currentData.length - 1) {
     currentIndex += 1;
-    render();
+  } else {
+    currentSectionKey = getNextSectionKey(currentSectionKey);
+    currentData = bathData[currentSectionKey];
+    sectionSelect.value = currentSectionKey;
+    currentIndex = 0;
   }
+
+  japaneseAudioHasReveal = false;
+  render();
+  playAudio(getJapaneseSentenceAudioPath());
 }
 
 function advanceContinuous77Reveal() {
@@ -412,9 +426,10 @@ function moveQuestion(step) {
   }
 
   if (currentMode === "japanese-audio") {
-    japaneseAudioHasReveal = true;
+    japaneseAudioHasReveal = false;
     isHintVisible = false;
     render();
+    playAudio(getJapaneseSentenceAudioPath());
     return;
   }
 
@@ -495,7 +510,7 @@ centerControl.addEventListener("click", () => {
   }
 
   if (currentMode === "japanese-audio") {
-    showHint();
+    playAudio(getJapaneseSentenceAudioPath());
   }
 });
 
@@ -527,7 +542,7 @@ sectionSelect.addEventListener("change", (event) => {
     isHintVisible = false;
     japaneseAudioHasReveal = false;
     render();
-    playAudio(getJapaneseSectionAudioPath());
+    playAudio(getJapaneseSentenceAudioPath());
     return;
   }
 

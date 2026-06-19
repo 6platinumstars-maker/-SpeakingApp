@@ -140,6 +140,8 @@ body {
 }
 
 .card-title {
+  font-size: 12px;
+  color: var(--muted);
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -153,7 +155,7 @@ body {
 }
 
 .japanese {
-  font-size: var(--japanese-size);
+  font-size: var(--english-size);
   line-height: 1.6;
   color: var(--muted);
   border-top: 1px solid var(--line);
@@ -176,9 +178,10 @@ body {
 }
 
 .hint-text {
+  font-size: var(--english-size);
   margin-top: 0;
   text-align: left;
-  line-height: 1.7;
+  line-height: 1.6;
   white-space: pre-wrap;
 }
 
@@ -232,8 +235,7 @@ body {
   }
 
   .meta-text,
-  .pill,
-  .hint-text {
+  .pill {
     font-size: 14px;
   }
 
