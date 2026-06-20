@@ -151,6 +151,5 @@ getBathEnglishByPosition(4)
 - `連続77問` モードでは、通常のセクション選択バーが `1〜10` の選択バーに切り替わります
 - `5en` は `fast -> slow -> fast -> slow -> fast` の並びです
 - ヒントはセクション単位で管理しています
-- 現在は `section01` から `section11`、`section41` から `section64`、`section67` から `section77` にヒントを登録済みです
-- 未登録の `section12` から `section40`、`section65`、`section66` は空文字のまま保持しています
+- 現在は `section01` から `section77` まで、すべてのセクションにヒントを登録済みです
 - キャッシュ更新が必要な変更時は `index.html` の `style.css?v=...` や `bath.js?v=...` のバージョン番号を更新します
